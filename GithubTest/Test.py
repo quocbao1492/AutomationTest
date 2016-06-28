@@ -7,6 +7,8 @@ driver.get("http://tinhte.vn")
 
 print "get website"
 
+time.sleep(10)
+
 driver.find_element_by_xpath("//*[@id='navigation']/div/div/div/nav/div/div/ul[2]/li[1]/a").click()
 time.sleep(4)
 print "click Login"
